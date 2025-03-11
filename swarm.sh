@@ -29,6 +29,6 @@ fi
 
 # 运行指定的 Docker 容器
 echo "正在拉取并运行容器..."
-docker run --gpus all --pull=always -it --rm \
+docker run --pull=always -it --rm \
     europe-docker.pkg.dev/gensyn-public-b7d9/public/rl-swarm:v0.0.1 \
     ./run_hivemind_docker.sh
