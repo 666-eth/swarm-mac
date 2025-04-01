@@ -10,6 +10,7 @@ fi
 
 # 安装 Python3 和 Git（如果未安装）
 brew install python@3.11 git
+brew install nodejs
 
 # 安装 virtualenv
 pip3 install virtualenv
